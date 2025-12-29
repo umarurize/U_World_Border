@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-u-world-border"
+version = "251229"
+description = "null"
+
+[project.entry-points."endstone"]
+u_world_border = "endstone_u_world_border:u_world_border"
