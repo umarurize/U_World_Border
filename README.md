@@ -5,14 +5,18 @@
 ![](https://img.shields.io/badge/language-python-blue.svg) 
 [![GitHub License](https://img.shields.io/github/license/umarurize/U_World_Border)](LICENSE)
 
-## ✨Introductions
+***
+
+### ✨Introductions
 * **Different dimensions' world borders can be independently configured**
 * **Free of tedious file editing**
 * **Support with full GUI forms**
 * **Support with hot reloading**
 * **Support with localized multi-language**
 
-## 📦Installation
+***
+
+### 📦Installation
 <details>
 <summary>Check your Endstone's version</summary>
 
@@ -34,7 +38,9 @@
 3. Restart your server
 4. Enter the command `/ubd` to call out the main form of U-World-Border
 
-## 📄File structure
+***
+
+### 📄File structure
 ```
 plugins/
 ├─ u-world-border/
@@ -44,7 +50,9 @@ plugins/
 │  │  ├─ en_US.json
 ```
 
-## ⚙️Configuration
+***
+
+### ⚙️Configuration
 `config.json`
 
 ```json5
@@ -66,8 +74,9 @@ plugins/
     }
 }
 ```
+***
 
-## 🌎Localized multi-language
+### 🌎Localized multi-language
 * Currently supported localized languages for U-World-Border:
 - [x] `zh_CN`
 - [x] `en_US`
@@ -78,5 +87,7 @@ plugins/
   * Restart your server, and you're all done!
 * If you'd like your translated language to be included as one of the official languages of this plugin, feel free to shoot over a PR.
 
-## 🎨Screenshots
+***
+
+### 🎨Screenshots
 You can view related screenshots of U-World-Border from images folder of this repo.
