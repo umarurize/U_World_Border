@@ -1,17 +1,18 @@
-# U-World-Border
-
 <code><a href="https://github.com/umarurize/U_World_Border"><img height="25" src="./logo/logo.jpg" alt="U-World-Border" /></a>&nbsp;U-World-Border</code>
 
-## Introductions
-* **3 types of dimensions' world borders can be independently set**
-  * Overworld
-  * Nether
-  * The End
-* **Full GUI forms**
-* **Hot reload support**
-* **Localized languages support**
+![Total Git clones](https://img.shields.io/badge/dynamic/json?label=Total%20Git%20clones&query=$&url=https://cdn.jsdelivr.net/gh/umarurize/U_World_Border@master/clone_count.txt&color=brightgreen)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/umarurize/U_World_Border/total)
+![](https://img.shields.io/badge/language-python-blue.svg) 
+[![GitHub License](https://img.shields.io/github/license/umarurize/U_World_Border)](LICENSE)
 
-## Installation
+## ✨Introductions
+* **Different dimensions' world borders can be independently configured**
+* **Free of tedious file editing**
+* **Support with full GUI forms**
+* **Support with hot reloading**
+* **Support with localized multi-language**
+
+## 📦Installation
 <details>
 <summary>Check your Endstone's version</summary>
 
@@ -21,18 +22,21 @@
 </details>
 
 <details>
-<summary>Check pre-plugins</summary>
+<summary>Check your pre-plugins</summary>
 
-* **[ZX_UI]()**
-
+* **Optional pre-plugin**
+  * [ZX_UI](https://www.minebbs.com/resources/zx-ui.9830/)
 
 </details>
 
-Put `.whl` file into the endstone plugins folder, and then start the server. Enter the command `/ubd` to call out the main form.
+1. Ensure you have downloaded the correct version and installed all required pre-plugins
+2. Place the `.whl` file into your server's `plugins` folder
+3. Restart your server
+4. Enter the command `/ubd` to call out the main form of U-World-Border
 
-## File structure
+## 📄File structure
 ```
-Plugins/
+plugins/
 ├─ u-world-border/
 │  ├─ config.json
 │  ├─ lang/
@@ -40,10 +44,9 @@ Plugins/
 │  │  ├─ en_US.json
 ```
 
-## Configuration
-U-World-Border allows operators to edit/update `config.json` through GUI forms with ease, here are just simple explanations for relevant configurations.
-
+## ⚙️Configuration
 `config.json`
+
 ```json5
 {
     "overworld": {
@@ -64,19 +67,16 @@ U-World-Border allows operators to edit/update `config.json` through GUI forms w
 }
 ```
 
-## Languages
+## 🌎Localized multi-language
+* Currently supported localized languages for U-World-Border:
 - [x] `zh_CN`
 - [x] `en_US`
+* How to add more languages to U-World-Border? Here we use Japanese for an example.
+  * Create a file named `ja_JP.json` and place it into `lang` folder
+  * Copy all key-value pairs from `en_US.json` and paste them into `ja_JP.json`
+  * Refer to the English values and translate them all into Japanese, then save the file.
+  * Restart your server, and you're all done!
+* If you'd like your translated language to be included as one of the official languages of this plugin, feel free to shoot over a PR.
 
-Of course, you can add your mother language to U-World-Border, just create `XX_XX.json` (such as `ja_JP.json`) and translate value with reference to `en_US.json`.
-
-You can also create a PR to this repo to make your mother language one of the official languages of U-World-Border.
-
-## Screenshots
+## 🎨Screenshots
 You can view related screenshots of U-World-Border from images folder of this repo.
-
-
-![Total Git clones](https://img.shields.io/badge/dynamic/json?label=Total%20Git%20clones&query=$&url=https://cdn.jsdelivr.net/gh/umarurize/U_World_Border@master/clone_count.txt&color=brightgreen)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/umarurize/U_World_Border/total)
-![](https://img.shields.io/badge/language-python-blue.svg) 
-[![GitHub License](https://img.shields.io/github/license/umarurize/U_World_Border)](LICENSE)
