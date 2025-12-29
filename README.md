@@ -1,12 +1,9 @@
-## U-World-Border
+# U-World-Border
 
 <code><a href="https://github.com/umarurize/U_World_Border"><img height="25" src="./logo/logo.jpg" alt="U-World-Border" /></a>&nbsp;U-World-Border</code>
 
-![Total Git clones](https://img.shields.io/badge/dynamic/json?label=Total%20Git%20clones&query=$&url=https://cdn.jsdelivr.net/gh/umarurize/U_World_Border@master/clone_count.txt&color=brightgreen)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/umarurize/U_World_Border/total)
-
-### 🔔Introductions
-* **3 types of dimensions' world borders can independently set**
+## Introductions
+* **3 types of dimensions' world borders can be independently set**
   * Overworld
   * Nether
   * The End
@@ -14,7 +11,7 @@
 * **Hot reload support**
 * **Localized languages support**
 
-### 🔨Installation
+## Installation
 <details>
 <summary>Check your Endstone's version</summary>
 
@@ -23,14 +20,17 @@
 
 </details>
 
-[Optional pre-plugin] ZX_UI
+<details>
+<summary>Check pre-plugins</summary>
+
+* **[ZX_UI]()**
+
+
+</details>
 
 Put `.whl` file into the endstone plugins folder, and then start the server. Enter the command `/ubd` to call out the main form.
 
-### 💻Download
-Now, you can get the release version form this repo or <code><a href="https://www.minebbs.com/resources/umoney-jian-dan-shi-yong-qu-zhi-ling-hua-de-jing-ji-xi-tong.10622/"><img height="20" src="./logo/minebbs.png" alt="Minebbs" /></a>&nbsp;Minebbs</code>.
-
-### 📁File structure
+## File structure
 ```
 Plugins/
 ├─ u-world-border/
@@ -40,7 +40,7 @@ Plugins/
 │  │  ├─ en_US.json
 ```
 
-### 📝Configuration
+## Configuration
 U-World-Border allows operators to edit/update `config.json` through GUI forms with ease, here are just simple explanations for relevant configurations.
 
 `config.json`
@@ -64,7 +64,7 @@ U-World-Border allows operators to edit/update `config.json` through GUI forms w
 }
 ```
 
-### 🌐Languages
+## Languages
 - [x] `zh_CN`
 - [x] `en_US`
 
@@ -72,8 +72,11 @@ Of course, you can add your mother language to U-World-Border, just create `XX_X
 
 You can also create a PR to this repo to make your mother language one of the official languages of U-World-Border.
 
-### 📷Screenshots
+## Screenshots
 You can view related screenshots of U-World-Border from images folder of this repo.
 
 
-![](https://img.shields.io/badge/language-python-blue.svg) [![GitHub License](https://img.shields.io/github/license/umarurize/U_World_Border)](LICENSE)
+![Total Git clones](https://img.shields.io/badge/dynamic/json?label=Total%20Git%20clones&query=$&url=https://cdn.jsdelivr.net/gh/umarurize/U_World_Border@master/clone_count.txt&color=brightgreen)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/umarurize/U_World_Border/total)
+![](https://img.shields.io/badge/language-python-blue.svg) 
+[![GitHub License](https://img.shields.io/github/license/umarurize/U_World_Border)](LICENSE)
